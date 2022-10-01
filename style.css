@@ -5,10 +5,10 @@
     grid-gap: 1px;
     grid-template: repeat(5, 80px)/ repeat(6, 80px) ;
     grid-template-areas: 
-    "a b c c d q"
-    "a f g g h q"
-    "e f g g h q"
-    "i j k l l q"
+    "a b c c d ."
+    "a f . . h ."
+    "e f . . h ."
+    "i j k l l ."
     "i m n n o p"; 
 }
 
@@ -42,10 +42,10 @@ div#container div:nth-child(6){
     grid-area: f;
     background-color: orange;
 }
-div#container div:nth-child(7){
+/* div#container div:nth-child(7){
     grid-area: g;
     color: black;
-}
+} */
 div#container div:nth-child(8){
     grid-area: h;
     background-color: orange;
@@ -82,8 +82,4 @@ div#container div:nth-child(15){
 div#container div:nth-child(16){
     grid-area: p;
     background-color: royalblue;
-}
-div#container div:nth-child(17){
-    grid-area: q;
-    color: black;
 }
